@@ -2030,6 +2030,14 @@ linters-settings:
     # Enforce putting arguments on separate lines.
     # Default: false
     args-on-sep-lines: true
+    # Enforce not using specific keys.
+    # Default: []
+    forbidden-keys:
+      - "msg"
+      - "source"
+      - "level"
+      - "time"
+
 
   spancheck:
     # Checks to enable.
